@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo websocket</title>
+		<style>
+			#chat-area {
+				float:left;
+			}
+			#online-area {
+				float:left;
+			}
+		</style>
+    </head>
+    <body>  
+        
+		<div id = "chat-area" >
+			<h1>Demo WebSocket</h1>
+			<input id="textMessage" type="text" />
+			<input onclick="sendMessage()" value="Send Message" type="button" /> <br/><br/>
+
+			<textarea id="textAreaMessage" rows="10" cols="50"></textarea>
+			<br><a href="signout">Log out</a>
+		</div>
+		<div id="online-area" >
+			<h1>Online user </h1>
+			<ul>
+				<li>alo</li>
+			</ul>
+		</div>
+        
+    </body>
+</html>
